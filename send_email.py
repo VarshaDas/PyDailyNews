@@ -23,8 +23,8 @@ def send_email(headlines):
         html_body += f"<p><strong>{index + 1}. {title}</strong><br>{description_html}<br>Source: {source}</p>"
 
     message = Mail(
-        from_email='gototol342@quipas.com',
-        to_emails='gototol342@quipas.com',
+        from_email='',
+        to_emails='',
         subject=subject,
         html_content=html_body
     )
