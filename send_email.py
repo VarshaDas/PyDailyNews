@@ -6,7 +6,7 @@ CATEGORY = 'business'
 
 def send_email(headlines):
     # Set your SendGrid API key
-    sendgrid_api_key = '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'
+    sendgrid_api_key = ''
 
     subject = f'Top Headlines on {CATEGORY.capitalize()}'
 
